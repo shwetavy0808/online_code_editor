@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+}
+.top-pane{
+  background-color: hsl(225, 6%, 25%);
+}
+.pane{
+  height: 50vh;
+  display: flex;
+
+}
+
+.editor-container{
+  flex-grow: 1; //expand editor
+  flex-basis: 0;//to make each editor o same size
+  display: flex; //we can sttyle the thing inside editor
+  flex-direction :column; //to stylr from top to bottom
+  padding : .5rem; //search related to rem
+}

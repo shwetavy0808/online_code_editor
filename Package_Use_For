@@ -1,0 +1,10 @@
+"codemirror": "^5.63.0", //textEditor
+"react-codemirror2": "^7.2.1", //It is allow us to use textEditor (codemirror)inside react with costum component
+className = "pane top-pane" //pane top structre having subclass top-pane and bottom structure is having some specific className
+<iframe></iframe> //Inorder to render html, css, js we just need <iframe></iframe>
+<Editor/>  //Need to open 3 editor HTML, CSS, JS
+
+
+CSS:
+
+ flex-grow: 1;//top-pane contaner eitor will expand fully
